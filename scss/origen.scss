@@ -1,4 +1,15 @@
-* {margin: 0px;}
+$oscuro: #2c1513;
+
+$gris: #f6f7ec;
+
+
+/*each*/
+@each $color in dt td fieldset legend {
+    #{$color} {
+        color: $oscuro;
+    }
+}
+
 
 h1 {
     font-size: 100%;
@@ -10,23 +21,15 @@ h2 {
     text-align: center;
     font-style: oblique;
     margin: 20px 20px 40px;
-    color: #f6f7ec;}
+    color: $gris;}
 
-dt {color: #2c1513;}
-
-dd {color:#f6f7ec;}
-
-td {color: #2c1513;}
-
-fieldset {color: #2c1513;}
+dd {color:$gris;}
 
 h3 {margin: 0px 10px 20px 10px;
-    color: #2c1513;}
-
-legend {color: #2c1513;}
+    color: $oscuro;}
 
 .textoColor {
-    color: #f6f7ec;
+    color: $gris;
 }
 
 .iconos {
@@ -48,7 +51,7 @@ legend {color: #2c1513;}
 }
 
 p { margin: 20px 20px 20px 0px;
-    color: #f6f7ec;}
+    color: $gris;}
 
 .centrar {text-align: center;
           margin: 20px 20px 20px 20px;
@@ -68,11 +71,8 @@ footer {
 
 .fondo { background-color: #9397a3;}
 
-
-.colorCelda {color: #f6f7ec;}
-
 .bordes {
-        border-color: #2c1513;
+        border-color: $oscuro;
         border-width: 5px;
         border-style:solid;}
 
@@ -118,7 +118,7 @@ ul li:hover + ul {
 li {
     margin: 0px 10px 0 10px;
     display: inline-block;
-    color: #dfa898;}
+}
 
 ul {
     text-align: right;
@@ -127,17 +127,6 @@ ul {
     padding-left: 40px;
     border-radius: 50px;
     }
-
-a {
-    color: #dfa898;
-}
-
-.menuFlex {
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
 
 .botones {
     margin: 0px 10px 20px 20px;
