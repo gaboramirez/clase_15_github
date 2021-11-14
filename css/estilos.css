@@ -46,12 +46,12 @@ legend {color: #2c1513;}
     width: 70%;
 }
 
-p {
-    margin: 10px 10px 10px 10px;
+p { margin: 20px 20px 20px 0px;
     color: #f6f7ec;}
 
 .centrar {text-align: center;
-          margin: 0px;
+          margin: 20px 20px 20px 20px;
+          font-size: 120%;
 }
 
 footer {
@@ -62,10 +62,6 @@ footer {
 }
 
 .cursiva {font-style: italic;}
-
-.parrafo {text-align: center;}
-
-.textoRelativo {font-size: 20px}
 
 .letraTexto {font-style: oblique;}
 
